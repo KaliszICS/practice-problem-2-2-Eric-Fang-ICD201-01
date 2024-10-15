@@ -15,7 +15,7 @@ def q1():
 
 def q2(): 
   #Write Assignment code here
-  if(float(input("Input an integer: ")) > 0):
+  if(float(input("Input a number: ")) > 0):
     print("Positive")
   else:
     print("Negative")
@@ -29,7 +29,7 @@ def q3():
 
 def q4(): 
   #Write Assignment code here
-  if (int(input("Type \"Hello\": ")) == "Hello"):
+  if (input("Type \"Hello\": ") == "Hello"):
     print("The word is Hello")
   else:
     print("The word is not Hello")
